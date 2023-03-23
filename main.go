@@ -1,7 +1,12 @@
 package main
 
-import "github.com/margostino/gover/cmd"
+import (
+	"github.com/margostino/gover/cmd"
+	"log"
+)
 
 func main() {
-	cmd.Execute()
+	if err := cmd.Execute(); err != nil {
+		log.Fatalf("Error: %s", err.Error())
+	}
 }
