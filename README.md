@@ -1,5 +1,5 @@
 # go-to-vercel-bootstrap
-Bootstrap a GO Serverless Function on Vercel
+Bootstrap a GO Serverless Function hosted by Vercel
 
 ToDo:
 - [ ] Async and parallel calls
