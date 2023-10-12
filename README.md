@@ -10,7 +10,7 @@ ToDo:
 # Usage
 
 ```bash
-> gover --name my-first-serverless-app
+> gover create --name my-first-serverless-app
 ```
 
 # Configuration

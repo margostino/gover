@@ -1,0 +1,7 @@
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - go build -v -o gover
+      - cp gover $GOBIN
